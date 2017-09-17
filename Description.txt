@@ -1,0 +1,10 @@
+Implemente um código capaz de simular o funcionamento de páginas do banco de dados. 
+A página será configurada com registros de formato fixo utilizando a estrutura de bitmap (ver material da aula). 
+O usuário ira especificar quais são os atributos e o  sistema deve fazer o salvamento em um arquivo binário e a recuperação de tal 
+informação. Além disso, o  sistema deve implementar a remoção de registros e posterior salvamento na lacuna em aberto. 
+A página terá o tamanho fixo de 4Kb. 
+
+O código deve apresentar a opção de criar a estrtutura do registro (por exemplo o formato da tabela), 
+inserir registros (deverá ser salvo em um arquivo) e recuperar todos os registros. 
+
+Pode-se usar como base o códgio hfile.c
